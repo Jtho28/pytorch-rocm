@@ -1,5 +1,5 @@
 # PyTorch-research
-Repo for PyTorch research and development, specifically using ROCm GPU acceleration and the Apple Metal Framework.
+Repo for PyTorch research and development, specifically using ROCm GPU acceleration, the Apple Metal Framework, and the Intel PyTorch for GPU extension.
 
 # Getting started
 ## Install PyTorch - Radeon
