@@ -2,7 +2,7 @@
 Repo for PyTorch research and development, specifically using ROCm GPU acceleration and the Apple Metal Framework.
 
 # Getting started
-## Install pytorch
+## Install pytorch - Radeon
 For this repo, install PyTorch for Linux with Pip -- [pytorch](https://pytorch.org/get-started/locally/)
 *Note: This repo is focused on Python with ROCm 5.2 support.*<br>
 
@@ -18,6 +18,8 @@ This assumes you are using one of the following linux distributions:
 - PCLinuxOS, *minimum version 2014.7*
 - Slackware, *minimum version 14.2*
 - Ubuntu, *minimum version 13.04*
+
+## Install pytorch - Metal
 
 And a ROCm 5.2 supported GPU:
 - Radeon Instinct MI100, MI50, MI125
