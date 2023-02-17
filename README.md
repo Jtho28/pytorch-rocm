@@ -2,8 +2,8 @@
 Repo for PyTorch research and development, specifically using ROCm GPU acceleration and the Apple Metal Framework.
 
 # Getting started
-## Install pytorch - Radeon
-For this repo, install PyTorch for Linux with Pip -- [pytorch](https://pytorch.org/get-started/locally/)
+## Install PyTorch - Radeon
+For this repo, install PyTorch for ROCm 5.2 for Linux with Pip -- [pytorch](https://pytorch.org/get-started/locally/)
 *Note: This repo is focused on Python with ROCm 5.2 support.*<br>
 
 `pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/rocm5.2`
@@ -19,8 +19,6 @@ This assumes you are using one of the following linux distributions:
 - Slackware, *minimum version 14.2*
 - Ubuntu, *minimum version 13.04*
 
-## Install pytorch - Metal
-
 And a ROCm 5.2 supported GPU:
 - Radeon Instinct MI100, MI50, MI125
 - AMD Radeon VII
@@ -32,5 +30,9 @@ And a ROCm 5.2 supported GPU:
 
 *Note: not all features may be supported on all GPUs, and some features may require specific hardware configurations or BIOS settings. Also, keep in mind that newer versions of ROCm may support additional GPUs or features, so it's always a good idea to check the ROCm documentation for the latest information.*
 
+## Install PyTorch - Metal
+TBD
 ## Install ROCm 5.2 - Ubuntu
-
+Add ROCm repository to your system.<br>
+`wget -q0 - https://repo.radeon.com/rocm/rocm.gpg.key | sudo apt-key add -`<br>
+`echo 'deb [arch=amd64] https://repo.radeon.com/rocm/apt/5.2/ ubuntu main' | sudo tee /etc/apt/sources.list.d/rocm.list`
